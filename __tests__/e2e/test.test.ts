@@ -14,8 +14,8 @@ describe("When e2e network is running with the plugin",()=>{
         const builder = new CertifiedDataBuilder();
         const actual = builder
             .certifiedDataAsset({data: "datatostore"})
-            .nonce("1")
-            .sign("oil cricket silent piece cash isolate echo venture nation grit bullet have");
+            .nonce("3")
+            .sign("clay harbor enemy utility margin pretty hub comic piece aerobic umbrella acquire");
 
         const txJson = actual.build().toJson();
         const result = await RestClient.broadcast([txJson]);
