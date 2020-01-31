@@ -6,12 +6,12 @@ import { CertifiedDataHandler } from "./handlers";
 export const plugin: Container.IPluginDescriptor = {
     pkg: require("../package.json"),
     defaults,
-    alias: "my-custom-transactions",
+    alias: "certificate-manager",
     async register(container: Container.IContainer, options) {
-        container.resolvePlugin<Logger.ILogger>("logger").info("Registering custom transaction");
+        container.resolvePlugin<Logger.ILogger>("logger").info("Registering BCDiploma Certificate Data Transaction");
         Handlers.Registry.registerTransactionHandler(CertifiedDataHandler);
     },
     async deregister(container: Container.IContainer, options) {
-        container.resolvePlugin<Logger.ILogger>("logger").info("Deregistering custom transaction");
+        container.resolvePlugin<Logger.ILogger>("logger").info("Deregistering BCDiploma Certificate Data Transaction");
     },
 };
