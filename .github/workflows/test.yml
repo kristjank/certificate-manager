@@ -42,7 +42,7 @@ jobs:
                   ref: develop
             - uses: actions/checkout@v2
               with:
-                  path: plugins/dapp-core-module-gti-template
+                  path: plugins/certificate-manager
             - name: Find and Replace
               uses: jacobtomlinson/gha-find-replace@master
               with:

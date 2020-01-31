@@ -1,7 +1,7 @@
 import { Utils } from "@arkecosystem/crypto";
 
 export enum BcDiplomaTransactionType {
-    CertifiedData
+    CertifiedData,
 }
 
 export const BcDiplomaTypeGroup = 1002;

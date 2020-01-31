@@ -5,17 +5,17 @@ import { CertifiedDataBuilder } from "../../src/builders";
 import { CertifiedDataTransaction } from "../../src/transactions";
 import { RestClient } from "./rest-client";
 
-describe("When e2e network is running with the plugin",()=>{
-    it("Should accept the transaction", async ()=> {
+describe("When e2e network is running with the plugin", () => {
+    it("Should accept the transaction", async () => {
         Managers.configManager.setFromPreset("testnet");
         Managers.configManager.setHeight(2); // v2 transactions (aip11) are available from height 2
         Transactions.TransactionRegistry.registerTransactionType(CertifiedDataTransaction);
 
         const builder = new CertifiedDataBuilder();
         const actual = builder
-            .certifiedDataAsset({data: "datatostore"})
-            .nonce("1")
-            .sign("oil cricket silent piece cash isolate echo venture nation grit bullet have");
+            .certifiedDataAsset({ data: "datatostore" })
+            .nonce("3")
+            .sign("clay harbor enemy utility margin pretty hub comic piece aerobic umbrella acquire");
 
         const txJson = actual.build().toJson();
         const result = await RestClient.broadcast([txJson]);
@@ -23,7 +23,7 @@ describe("When e2e network is running with the plugin",()=>{
             accept: [txJson.id],
             broadcast: [txJson.id],
             excess: [],
-            invalid: []
+            invalid: [],
         });
     });
 });

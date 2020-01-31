@@ -1,4 +1,5 @@
 ![Imgur](https://i.imgur.com/8wiwey2.jpg)
+
 # Template: dApp Custom Transaction Implementation Skeleton
 
 ![Test](https://github.com/learn-ark/dapp-core-module-gti-template/workflows/Test/badge.svg)
@@ -26,6 +27,7 @@ Registered Transaction is fully compatible with existing [API (api/transactions/
 ### STEP 0: Create New Repository Based On This Template
 
 ### STEP 1: Checkout Your New dApp Repository As a GitSubmodule in core/plugins
+
 You should already have a running core and a local Testnet running. If not head over to https://learn.ark.dev/core-getting-started/spinning-up-your-first-testnet#step-2-testnet-network-boot.
 
 ```bash
@@ -33,6 +35,7 @@ cd plugins/ #location for loading of custom non-core dApps
 git submodule add -f https://github.com/your-gh-handle/your-dapp-name
 cd your-dapp-name
 ```
+
 ### STEP 2: Load The dApp Module In The Corresponding Network Configurations.
 
 Go to:
@@ -117,14 +120,14 @@ You should receive a response similar to this:
 
 ```typescript
 const builder = new BusinessRegistrationBuilder();
-        const actual = builder
-            .businessData("google","www.google.com")
-            .nonce("3")
-            .sign("clay harbor enemy utility margin pretty hub comic piece aerobic umbrella acquire");
+const actual = builder
+    .businessData("google", "www.google.com")
+    .nonce("3")
+    .sign("clay harbor enemy utility margin pretty hub comic piece aerobic umbrella acquire");
 
-
-        console.log(actual.build().toJson());
+console.log(actual.build().toJson());
 ```
+
 You are using the builder classes you already implemented as part of the plugin.
 
 #### Use Block Explorer To View&Search Local Running Testnet
