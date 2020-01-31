@@ -49,7 +49,7 @@ export class CertifiedDataHandler extends Handlers.TransactionHandler {
 		pool: TransactionPool.IConnection,
 		processor: TransactionPool.IProcessor,
 	): Promise<{ type: string, message: string } | null>  {
-		
+
 		return null;
 	}
 
@@ -79,6 +79,7 @@ export class CertifiedDataHandler extends Handlers.TransactionHandler {
 		walletManager: State.IWalletManager,
 		// tslint:disable-next-line: no-empty
 	): Promise<void> { }
+
 	public async revertForRecipient(
 		transaction: Interfaces.ITransaction,
 		walletManager: State.IWalletManager,
