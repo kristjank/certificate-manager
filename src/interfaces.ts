@@ -1,3 +1,3 @@
 export interface ICertifiedData {
-  data: string
+    data: string;
 }
