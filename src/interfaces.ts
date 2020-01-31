@@ -1,4 +1,3 @@
-export interface IBusinessData {
-  name: string;
-  website: string;
+export interface ICertifiedData {
+  data: string
 }
