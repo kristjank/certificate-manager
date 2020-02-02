@@ -1,13 +1,13 @@
 ![Imgur](https://i.imgur.com/8wiwey2.jpg)
 
-# BCDIPLOMA: Certificate Manager Plugin for Custom Transaction certificate-data
+# BCDIPLOMA: Certificate Manager Plugin For Custom Transaction Certificate-Data
 
 ![Test](https://github.com/kristjank/certificate-manager/workflows/Test/badge.svg)
 
 
 Registered Transaction is fully compatible with existing [API (api/transactions/)](https://api.ark.dev/public-rest-api/endpoints/transactions)
 
-## dApp Installation
+## STEP 1: dApp Installation
 
 ```bash
 cd plugins/ #location for loading of custom non-core dApps
