@@ -18,13 +18,13 @@ cd certificate-manager
 ### STEP 2: Load The dApp Module In The Corresponding Network Configurations.
 
 Go to:
-`core/packages/core/bin/testnet`
+`core/packages/core/bin/devnet`
 
 ```bash
-cd packages/core/bin/config/testnet
+cd packages/core/bin/config/devnet
 ```
 
-Locate file `plugins.js`. We will add our plugin name to end of the list of the loaded plugins. This means that core will pickup the plugin/dapp and load it for a specific network configuration. Add line `"@arkecosystem/custom-transactions": {}`: to the end of the `plugins.js` file, so it looks something like this:
+Locate file `plugins.js`. We will add our plugin name to end of the list of the loaded plugins. This means that core will pickup the plugin/dapp and load it for a specific network configuration. Add line `"@bcdiploma/certificate-manager": {}`: to the end of the `plugins.js` file, so it looks something like this:
 
 ```typescript
     "@arkecosystem/core-exchange-json-rpc": {
@@ -39,7 +39,7 @@ Locate file `plugins.js`. We will add our plugin name to end of the list of the 
 ```
 
 **IMPORTANT**
-After you have changed the content of `plugins.js` you need to run `yarn setup` from the `core` root folder. This will pick up your newly registered plugin and build it.
+After you have changed the content of `plugins.js` you need to run `yarn setup` from the `core` root folder. This will pick up your newly registered plugin and build it. 
 
 
 
