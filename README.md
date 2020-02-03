@@ -16,7 +16,8 @@ cd certificate-manager
 ```
 
 **IMPORTANT**
-After you have changed the content of `plugins.js` you need to run `yarn setup` from the `core` root folder. This will pick up your newly registered plugin and build it.
+After you have changed the content of `plugins.js` you need to run `yarn setup:clean` from the `core` root folder. This will pick up your newly registered plugin and build it.
+
 
 > You can create more transaction payloads by looking at the `__tests__` folder. In short it is as simple as:
 
