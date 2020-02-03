@@ -1,6 +1,6 @@
 ![Imgur](https://i.imgur.com/8wiwey2.jpg)
 
-# BCDIPLOMA: Certificate Manager Plugin For Custom Transaction Certificate-Data
+# BCDiploma: Certificate Manager Plugin For Custom Transaction Certificate-Data
 
 ![Test](https://github.com/kristjank/certificate-manager/workflows/Test/badge.svg)
 
