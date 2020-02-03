@@ -22,7 +22,7 @@ export class CertifiedDataHandler extends Handlers.TransactionHandler {
     }
 
     public dynamicFee({ addonBytes, satoshiPerByte, transaction }): Utils.BigNumber {
-        return Utils.BigNumber.make("100");
+        return Utils.BigNumber.make("3000");
     }
 
     public async bootstrap(connection: Database.IConnection, walletManager: State.IWalletManager): Promise<void> {
