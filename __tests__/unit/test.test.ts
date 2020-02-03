@@ -35,7 +35,6 @@ describe("Certified data registration transaction", () => {
         const certifiedDataTransaction = builder
             .certifiedDataAsset({ data: "ARK Core Blockchain Integration MasterClass #2:D" })
             .nonce("3")
-            .network(70)
             .sign("awful brand vocal relief wish afford avocado lobster run today wagon faith")
             .getStruct();
 
@@ -54,7 +53,6 @@ describe("Certified data registration transaction", () => {
         const certifiedDataTransaction = builder
             .certifiedDataAsset({ data: "ARK Core Blockchain Integration MasterClass #2:D" })
             .nonce("3")
-            .network(70)
             .sign("awful brand vocal relief wish afford avocado lobster run today wagon faith")
             .getStruct();
 
