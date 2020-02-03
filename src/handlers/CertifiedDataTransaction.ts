@@ -1,6 +1,6 @@
 import { Database, State, TransactionPool } from "@arkecosystem/core-interfaces";
 import { Handlers, TransactionReader } from "@arkecosystem/core-transactions";
-import { Interfaces, Transactions } from "@arkecosystem/crypto";
+import { Interfaces, Transactions, Utils } from "@arkecosystem/crypto";
 import { ICertifiedData } from "../interfaces";
 import { CertifiedDataTransaction } from "../transactions";
 
@@ -19,6 +19,10 @@ export class CertifiedDataHandler extends Handlers.TransactionHandler {
 
     public dependencies(): ReadonlyArray<Handlers.TransactionHandlerConstructor> {
         return [];
+    }
+
+    public dynamicFee({ addonBytes, satoshiPerByte, transaction }): Utils.BigNumber {
+        return Utils.BigNumber.make("3000");
     }
 
     public async bootstrap(connection: Database.IConnection, walletManager: State.IWalletManager): Promise<void> {
