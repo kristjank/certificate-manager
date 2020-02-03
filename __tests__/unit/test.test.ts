@@ -12,9 +12,9 @@ describe("Test builder", () => {
 
         const builder = new CertifiedDataBuilder();
         const actual = builder
-            .certifiedDataAsset({ data: "certifieddatatostore" })
+            .certifiedDataAsset({ data: "certifieddata" })
             .nonce("1")
-            .sign("oil cricket silent piece cash isolate echo venture nation grit bullet have");
+            .sign("awful brand vocal relief wish afford avocado lobster run today wagon faith");
 
         console.log(actual.build().toJson());
         expect(actual.build().verified).toBeTrue();
