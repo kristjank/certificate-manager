@@ -5,5 +5,5 @@ export const checkCommonFields = (deserialized: Interfaces.ITransaction, expecte
     for (const field of fieldsToCheck) {
         expect(deserialized.data[field].toString()).toEqual(expected[field].toString());
     }
-    expected(deserialized.data.asset.certifiedData.data).toEqual(expected.asset.certifiedData.data);
+    expect(deserialized.data.asset.certifiedData.data).toEqual(expected.asset.certifiedData.data);
 };

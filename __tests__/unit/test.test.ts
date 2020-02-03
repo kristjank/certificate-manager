@@ -10,11 +10,9 @@ import { checkCommonFields} from "./helper";
 let builder: CertifiedDataBuilder;
 
 Managers.configManager.setHeight(2); // aip11 (v2 transactions) is true from height 2 on testnet
-
+Managers.configManager.setFromPreset("testnet");
 
 describe("Certified data registration transaction", () => {
-    Managers.configManager.setFromPreset("testnet");
-
     Transactions.TransactionRegistry.registerTransactionType(CertifiedDataTransaction);
 
     beforeEach(() => {
@@ -24,6 +22,7 @@ describe("Certified data registration transaction", () => {
     it("Should verify correctly", () => {
         const actual = builder
             .certifiedDataAsset({ data: "ARK Core Blockchain Integration MasterClass #2:D" })
+            .network(70)
             .nonce("3")
             .sign("awful brand vocal relief wish afford avocado lobster run today wagon faith");
 
@@ -37,6 +36,7 @@ describe("Certified data registration transaction", () => {
         const certifiedDataTransaction = builder
             .certifiedDataAsset({ data: "ARK Core Blockchain Integration MasterClass #2:D" })
             .nonce("3")
+            .network(70)
             .sign("awful brand vocal relief wish afford avocado lobster run today wagon faith")
             .getStruct();
 
@@ -54,6 +54,7 @@ describe("Certified data registration transaction", () => {
         const builder = new CertifiedDataBuilder();
         const certifiedDataTransaction = builder
             .certifiedDataAsset({ data: "ARK Core Blockchain Integration MasterClass #2:D" })
+            .network(70)
             .nonce("3")
             .sign("awful brand vocal relief wish afford avocado lobster run today wagon faith")
             .getStruct();
