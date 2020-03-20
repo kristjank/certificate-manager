@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@arkecosystem/core-container@2.6.30":
+"@arkecosystem/core-container@2.6.30", "@arkecosystem/core-container@^2.6.30":
   version "2.6.30"
   resolved "https://registry.yarnpkg.com/@arkecosystem/core-container/-/core-container-2.6.30.tgz#3c4020ad129dc39045ee8d331d2a48050c51df49"
   integrity sha512-ag8MEnPwDkEn1Gadh3qjgJMxoqOGzU0qcwQWIA/xIk9Arl9amEvMDerA7h+kfFo7OKdQ1rQ5IqHTOxxkW0sJeQ==
@@ -104,7 +104,22 @@
     "@arkecosystem/crypto" "^2.6.29"
     bs58check "^2.1.2"
 
-"@arkecosystem/core-utils@2.6.29", "@arkecosystem/core-utils@^2.6.29":
+"@arkecosystem/core-utils@2.6.30":
+  version "2.6.30"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-utils/-/core-utils-2.6.30.tgz#fa77038e808b37e817055ad93517b15aa46fd87b"
+  integrity sha512-lpBpp7nDA3dAJv6mfP7Fymemgr3bGVydnBIwYgG/74BTCOFW813egrMJ1bNOMDOQzm2jIPcPIz8g2M5+P0pQRA==
+  dependencies:
+    "@arkecosystem/core-container" "^2.6.30"
+    "@arkecosystem/core-interfaces" "^2.6.30"
+    "@arkecosystem/crypto" "^2.6.30"
+    cli-table3 "^0.5.1"
+    dayjs "^1.8.15"
+    fast-json-parse "^1.0.3"
+    got "^9.6.0"
+    immutable "^4.0.0-rc.12"
+    nanomatch "^1.2.13"
+
+"@arkecosystem/core-utils@^2.6.29":
   version "2.6.29"
   resolved "https://registry.yarnpkg.com/@arkecosystem/core-utils/-/core-utils-2.6.29.tgz#1ddd23cc8291e2beaeaef877711464794b6f864e"
   integrity sha512-Lscne/3u0z8F9QzYeGTOPwtY5YCMa710+Gm7pLJJJUlq+KEfduGLc6jXnlaKSR5b6ASkiAySXHHCaDXzU4IN/Q==
