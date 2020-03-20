@@ -48,15 +48,15 @@
     log-process-errors "^5.0.2"
     semver "^7.0.0"
 
-"@arkecosystem/core-event-emitter@2.6.29", "@arkecosystem/core-event-emitter@^2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.29.tgz#805e9480f0bb6d37333abb5cb193360a6166c5f9"
-  integrity sha512-b5N+Mq6qtUjHgWJYbsfALhq5mFHO3nNSzh/+ijasqkDOS6ao3Izv8alZHnwCnXTFXYrhNQ/cYMGuM2NP1N8nMg==
-
-"@arkecosystem/core-event-emitter@^2.6.30":
+"@arkecosystem/core-event-emitter@2.6.30", "@arkecosystem/core-event-emitter@^2.6.30":
   version "2.6.30"
   resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.30.tgz#616a5ce33ec9212d8a89017eed4afdc3e17c5d7f"
   integrity sha512-rERDrVvGW5e31tXfecMIyDLujQr2h26N8C6yz4hRBhPsHE19965DPxJFfKiqqA0wRFCRX1tMHzTeDnA7DfYNWw==
+
+"@arkecosystem/core-event-emitter@^2.6.29":
+  version "2.6.29"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.29.tgz#805e9480f0bb6d37333abb5cb193360a6166c5f9"
+  integrity sha512-b5N+Mq6qtUjHgWJYbsfALhq5mFHO3nNSzh/+ijasqkDOS6ao3Izv8alZHnwCnXTFXYrhNQ/cYMGuM2NP1N8nMg==
 
 "@arkecosystem/core-interfaces@2.6.29", "@arkecosystem/core-interfaces@^2.6.29":
   version "2.6.29"
