@@ -25,38 +25,10 @@
     log-process-errors "^5.0.2"
     semver "^7.0.0"
 
-"@arkecosystem/core-container@^2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-container/-/core-container-2.6.29.tgz#9e4f857966d4a66396343da85d6cbb4b9a00cd76"
-  integrity sha512-vcGNvEYi7D/qM5zEoj5wpfI8+TvOJaP3H5BUARVyvvaW9gIP8gRVDH4+GZNB+BCs4hvUjzhfZGJqPybhQSCANA==
-  dependencies:
-    "@arkecosystem/core-event-emitter" "^2.6.29"
-    "@arkecosystem/core-interfaces" "^2.6.29"
-    "@arkecosystem/crypto" "^2.6.29"
-    "@hapi/hoek" "^8.0.2"
-    "@hapi/joi" "^15.1.0"
-    awilix "^4.2.2"
-    delay "^4.3.0"
-    env-paths "^2.2.0"
-    envfile "^4.0.0"
-    expand-home-dir "^0.0.3"
-    fs-extra "^8.1.0"
-    got "^9.6.0"
-    lodash.get "^4.4.2"
-    lodash.isstring "^4.0.1"
-    lodash.set "^4.3.2"
-    log-process-errors "^5.0.2"
-    semver "^7.0.0"
-
 "@arkecosystem/core-event-emitter@2.6.30", "@arkecosystem/core-event-emitter@^2.6.30":
   version "2.6.30"
   resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.30.tgz#616a5ce33ec9212d8a89017eed4afdc3e17c5d7f"
   integrity sha512-rERDrVvGW5e31tXfecMIyDLujQr2h26N8C6yz4hRBhPsHE19965DPxJFfKiqqA0wRFCRX1tMHzTeDnA7DfYNWw==
-
-"@arkecosystem/core-event-emitter@^2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.29.tgz#805e9480f0bb6d37333abb5cb193360a6166c5f9"
-  integrity sha512-b5N+Mq6qtUjHgWJYbsfALhq5mFHO3nNSzh/+ijasqkDOS6ao3Izv8alZHnwCnXTFXYrhNQ/cYMGuM2NP1N8nMg==
 
 "@arkecosystem/core-interfaces@2.6.30", "@arkecosystem/core-interfaces@^2.6.30":
   version "2.6.30"
@@ -64,15 +36,6 @@
   integrity sha512-rKV5s66wdhuD6Bb81r0wYURWv1HP3qGIzQIJQqADGtyUOqSWnkyj8+oC9IfiZwCS68dN4+uvHoZyALba9lzU0w==
   dependencies:
     "@arkecosystem/crypto" "^2.6.30"
-    awilix "^4.2.2"
-    dayjs "^1.8.15"
-
-"@arkecosystem/core-interfaces@^2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-interfaces/-/core-interfaces-2.6.29.tgz#5c183195b870ab102dda05cac3e308566845fd95"
-  integrity sha512-GHFHa6DXQ48fyeqM6v/oVcOH076Za35Cdsu+UhV4cn/OYTs/4SXpcDas54+xvdP5IDn1NyoSoRsRvwqWGkLmAQ==
-  dependencies:
-    "@arkecosystem/crypto" "^2.6.29"
     awilix "^4.2.2"
     dayjs "^1.8.15"
 
@@ -92,19 +55,7 @@
     lodash.clonedeep "^4.5.0"
     pluralize "^8.0.0"
 
-"@arkecosystem/core-transactions@2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-transactions/-/core-transactions-2.6.29.tgz#23e75b40fde59d375018d54b248e11621583cf34"
-  integrity sha512-FGz4SEDdAsYcyiOBWLxmDOC836weHAFuussNCPGM54wUhQRGhAQaKCR6nkKTAIQsyjcNwmDXuPuwxurGXhnfzg==
-  dependencies:
-    "@arkecosystem/core-container" "^2.6.29"
-    "@arkecosystem/core-event-emitter" "^2.6.29"
-    "@arkecosystem/core-interfaces" "^2.6.29"
-    "@arkecosystem/core-utils" "^2.6.29"
-    "@arkecosystem/crypto" "^2.6.29"
-    bs58check "^2.1.2"
-
-"@arkecosystem/core-transactions@^2.6.30":
+"@arkecosystem/core-transactions@2.6.30", "@arkecosystem/core-transactions@^2.6.30":
   version "2.6.30"
   resolved "https://registry.yarnpkg.com/@arkecosystem/core-transactions/-/core-transactions-2.6.30.tgz#d00970847a6f411ddcd06e947571daf6a4b65cb1"
   integrity sha512-0V4eP8tZj26BYAhSASdTXRn7y4t/yRINhzY48xGsdbWwJedwlV5MId462XwmdZiGfrXvXu/s30xOLUL0Rg4xYg==
@@ -131,22 +82,7 @@
     immutable "^4.0.0-rc.12"
     nanomatch "^1.2.13"
 
-"@arkecosystem/core-utils@^2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-utils/-/core-utils-2.6.29.tgz#1ddd23cc8291e2beaeaef877711464794b6f864e"
-  integrity sha512-Lscne/3u0z8F9QzYeGTOPwtY5YCMa710+Gm7pLJJJUlq+KEfduGLc6jXnlaKSR5b6ASkiAySXHHCaDXzU4IN/Q==
-  dependencies:
-    "@arkecosystem/core-container" "^2.6.29"
-    "@arkecosystem/core-interfaces" "^2.6.29"
-    "@arkecosystem/crypto" "^2.6.29"
-    cli-table3 "^0.5.1"
-    dayjs "^1.8.15"
-    fast-json-parse "^1.0.3"
-    got "^9.6.0"
-    immutable "^4.0.0-rc.12"
-    nanomatch "^1.2.13"
-
-"@arkecosystem/crypto@2.6.29", "@arkecosystem/crypto@^2.6.29":
+"@arkecosystem/crypto@2.6.29":
   version "2.6.29"
   resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-2.6.29.tgz#7ca11c706f81be8a1bb85f88d89b643cd7fa15dc"
   integrity sha512-vHZNecV4mxdq9QOnobsbdlu25HISUquWMKSQPZlBzeYlRE7p/d+cjOL8EMTIhvNPwpJM6sz4hBfJKtcW84iCsA==
