@@ -82,10 +82,10 @@
     immutable "^4.0.0-rc.12"
     nanomatch "^1.2.13"
 
-"@arkecosystem/crypto@2.6.29":
-  version "2.6.29"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-2.6.29.tgz#7ca11c706f81be8a1bb85f88d89b643cd7fa15dc"
-  integrity sha512-vHZNecV4mxdq9QOnobsbdlu25HISUquWMKSQPZlBzeYlRE7p/d+cjOL8EMTIhvNPwpJM6sz4hBfJKtcW84iCsA==
+"@arkecosystem/crypto@2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-2.6.31.tgz#032eec61fe446040852e8d062aa9a29021624ddd"
+  integrity sha512-bNXOGb2ug/YVCso7feAtFeUUN1uHlRhYut1z3rg74blJerP/RFVlG2IhUaIuoX/GnLJ1p47hK1QjaSoO0tokAQ==
   dependencies:
     "@arkecosystem/utils" "0.8.3"
     "@types/bytebuffer" "^5.0.40"
