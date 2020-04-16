@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-"@arkecosystem/core-container@2.6.30", "@arkecosystem/core-container@^2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-container/-/core-container-2.6.30.tgz#3c4020ad129dc39045ee8d331d2a48050c51df49"
-  integrity sha512-ag8MEnPwDkEn1Gadh3qjgJMxoqOGzU0qcwQWIA/xIk9Arl9amEvMDerA7h+kfFo7OKdQ1rQ5IqHTOxxkW0sJeQ==
+"@arkecosystem/core-container@2.6.31", "@arkecosystem/core-container@^2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-container/-/core-container-2.6.31.tgz#b6ab7d664b26b879459eeb25aa58a047b69f276b"
+  integrity sha512-syumWh6+vqeSSpkocXpfqwz0sijMWZyBm//2uKtPTufb2huhL3vcw871zXyAwq1aXNlj0oOQu4QsAl6DgO4sOg==
   dependencies:
-    "@arkecosystem/core-event-emitter" "^2.6.30"
-    "@arkecosystem/core-interfaces" "^2.6.30"
-    "@arkecosystem/crypto" "^2.6.30"
+    "@arkecosystem/core-event-emitter" "^2.6.31"
+    "@arkecosystem/core-interfaces" "^2.6.31"
+    "@arkecosystem/crypto" "^2.6.31"
     "@hapi/hoek" "^8.0.2"
     "@hapi/joi" "^15.1.0"
     awilix "^4.2.2"
@@ -25,56 +25,56 @@
     log-process-errors "^5.0.2"
     semver "^7.0.0"
 
-"@arkecosystem/core-event-emitter@2.6.30", "@arkecosystem/core-event-emitter@^2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.30.tgz#616a5ce33ec9212d8a89017eed4afdc3e17c5d7f"
-  integrity sha512-rERDrVvGW5e31tXfecMIyDLujQr2h26N8C6yz4hRBhPsHE19965DPxJFfKiqqA0wRFCRX1tMHzTeDnA7DfYNWw==
+"@arkecosystem/core-event-emitter@2.6.31", "@arkecosystem/core-event-emitter@^2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.31.tgz#bcf8e481be9bb0f3c9aac5a3e5b7eaf5c6b9ca92"
+  integrity sha512-SFc8i0e3ZvvNygeXmTKYikFUtJ1jTsuvLyhmLjF+cws3xM4tWDeYrECRsrJ25qr/iUtyzk3BkU8rrM8P9NaXgw==
 
-"@arkecosystem/core-interfaces@2.6.30", "@arkecosystem/core-interfaces@^2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-interfaces/-/core-interfaces-2.6.30.tgz#7a8f36940c333deb9317cfd2e04e82d20910fb38"
-  integrity sha512-rKV5s66wdhuD6Bb81r0wYURWv1HP3qGIzQIJQqADGtyUOqSWnkyj8+oC9IfiZwCS68dN4+uvHoZyALba9lzU0w==
+"@arkecosystem/core-interfaces@2.6.31", "@arkecosystem/core-interfaces@^2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-interfaces/-/core-interfaces-2.6.31.tgz#429c00741392f9db6902b7a54452ff639028f5bf"
+  integrity sha512-o8TgCGUSbW412X0jBzrC50KLaKV7dCY5lvgNoEwCK5ohzhbEXmN75XPr3oR5r/HHBNZoXhxhxgp63hEfClmWNA==
   dependencies:
-    "@arkecosystem/crypto" "^2.6.30"
+    "@arkecosystem/crypto" "^2.6.31"
     awilix "^4.2.2"
     dayjs "^1.8.15"
 
-"@arkecosystem/core-state@2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-state/-/core-state-2.6.30.tgz#cb7ace9179a1af41313a11f7db2863822c901228"
-  integrity sha512-j0FleEEJdMUheZ1smXsV+C9Uw1hISlAFKQ9LYaqMGbvGa3H8uuCh0ehQzEL3+sNcGeZzdBmjiaHasDR2E2cLfQ==
+"@arkecosystem/core-state@2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-state/-/core-state-2.6.31.tgz#508845d80fa238962bcd00f1ebb4e4c8462a0ed8"
+  integrity sha512-Or+HfHmqQ72IaIlqSdSXQhBK3HT7rYr26jVKBVSiSW+pI4/DcYEgRMUhFWKxl52YDEOlanbkbFiUiW3dBKxxpg==
   dependencies:
-    "@arkecosystem/core-container" "^2.6.30"
-    "@arkecosystem/core-event-emitter" "^2.6.30"
-    "@arkecosystem/core-interfaces" "^2.6.30"
-    "@arkecosystem/core-transactions" "^2.6.30"
-    "@arkecosystem/core-utils" "^2.6.30"
-    "@arkecosystem/crypto" "^2.6.30"
+    "@arkecosystem/core-container" "^2.6.31"
+    "@arkecosystem/core-event-emitter" "^2.6.31"
+    "@arkecosystem/core-interfaces" "^2.6.31"
+    "@arkecosystem/core-transactions" "^2.6.31"
+    "@arkecosystem/core-utils" "^2.6.31"
+    "@arkecosystem/crypto" "^2.6.31"
     dottie "^2.0.1"
     immutable "^4.0.0-rc.12"
     lodash.clonedeep "^4.5.0"
     pluralize "^8.0.0"
 
-"@arkecosystem/core-transactions@2.6.30", "@arkecosystem/core-transactions@^2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-transactions/-/core-transactions-2.6.30.tgz#d00970847a6f411ddcd06e947571daf6a4b65cb1"
-  integrity sha512-0V4eP8tZj26BYAhSASdTXRn7y4t/yRINhzY48xGsdbWwJedwlV5MId462XwmdZiGfrXvXu/s30xOLUL0Rg4xYg==
+"@arkecosystem/core-transactions@2.6.31", "@arkecosystem/core-transactions@^2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-transactions/-/core-transactions-2.6.31.tgz#3340b5ee799f7f4a6a60f0ffbefdb53f0c7ac01f"
+  integrity sha512-gMX7MH1qpkF8o55xg/ubVORSJahl9fWul3e2SSc3C49Zz0XYGjABN9VR9uJ4Dqv6HctuxgwKUBu94GTUIAQXTw==
   dependencies:
-    "@arkecosystem/core-container" "^2.6.30"
-    "@arkecosystem/core-event-emitter" "^2.6.30"
-    "@arkecosystem/core-interfaces" "^2.6.30"
-    "@arkecosystem/core-utils" "^2.6.30"
-    "@arkecosystem/crypto" "^2.6.30"
+    "@arkecosystem/core-container" "^2.6.31"
+    "@arkecosystem/core-event-emitter" "^2.6.31"
+    "@arkecosystem/core-interfaces" "^2.6.31"
+    "@arkecosystem/core-utils" "^2.6.31"
+    "@arkecosystem/crypto" "^2.6.31"
     bs58check "^2.1.2"
 
-"@arkecosystem/core-utils@2.6.30", "@arkecosystem/core-utils@^2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/core-utils/-/core-utils-2.6.30.tgz#fa77038e808b37e817055ad93517b15aa46fd87b"
-  integrity sha512-lpBpp7nDA3dAJv6mfP7Fymemgr3bGVydnBIwYgG/74BTCOFW813egrMJ1bNOMDOQzm2jIPcPIz8g2M5+P0pQRA==
+"@arkecosystem/core-utils@2.6.31", "@arkecosystem/core-utils@^2.6.31":
+  version "2.6.31"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-utils/-/core-utils-2.6.31.tgz#def6a9df31e09fd0c832874564da0efca538efa6"
+  integrity sha512-4xLBOMINSV2GaXoK80qAb9YCO2BNCKWKv0jNv3Q4IGY97jcCizRhcncUe4GVmUVgOguZ+L41EXaoK8ckRDwrqw==
   dependencies:
-    "@arkecosystem/core-container" "^2.6.30"
-    "@arkecosystem/core-interfaces" "^2.6.30"
-    "@arkecosystem/crypto" "^2.6.30"
+    "@arkecosystem/core-container" "^2.6.31"
+    "@arkecosystem/core-interfaces" "^2.6.31"
+    "@arkecosystem/crypto" "^2.6.31"
     cli-table3 "^0.5.1"
     dayjs "^1.8.15"
     fast-json-parse "^1.0.3"
@@ -82,36 +82,10 @@
     immutable "^4.0.0-rc.12"
     nanomatch "^1.2.13"
 
-"@arkecosystem/crypto@2.6.31":
+"@arkecosystem/crypto@2.6.31", "@arkecosystem/crypto@^2.6.31":
   version "2.6.31"
   resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-2.6.31.tgz#032eec61fe446040852e8d062aa9a29021624ddd"
   integrity sha512-bNXOGb2ug/YVCso7feAtFeUUN1uHlRhYut1z3rg74blJerP/RFVlG2IhUaIuoX/GnLJ1p47hK1QjaSoO0tokAQ==
-  dependencies:
-    "@arkecosystem/utils" "0.8.3"
-    "@types/bytebuffer" "^5.0.40"
-    ajv "^6.10.2"
-    ajv-keywords "^3.4.1"
-    bcrypto "^4.1.0"
-    bip32 "^2.0.3"
-    bip39 "^3.0.2"
-    browserify-aes "^1.2.0"
-    bstring "^0.3.9"
-    buffer-xor "^2.0.2"
-    bytebuffer "^5.0.1"
-    dayjs "^1.8.15"
-    deepmerge "^4.0.0"
-    fast-memoize "^2.5.1"
-    ipaddr.js "^1.9.0"
-    lodash.get "^4.4.2"
-    lodash.set "^4.3.2"
-    lodash.sumby "^4.6.0"
-    tiny-glob "^0.2.6"
-    wif "^2.0.6"
-
-"@arkecosystem/crypto@^2.6.30":
-  version "2.6.30"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-2.6.30.tgz#aa793770a7c242991b02bff2a18fe30e63c45829"
-  integrity sha512-sRv8Q2GCYTPnRXHoD9rYi2o7O1PKMuTGuOQhzcYRaJWufb3cI6bFrwmLYyPzK0vTN6xUUFSg7hPO7qzRXY4Vwg==
   dependencies:
     "@arkecosystem/utils" "0.8.3"
     "@types/bytebuffer" "^5.0.40"
@@ -1121,13 +1095,6 @@ babel-preset-jest@^25.1.0:
     "@babel/plugin-syntax-bigint" "^7.0.0"
     "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
     babel-plugin-jest-hoist "^25.1.0"
-
-backbone@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/backbone/-/backbone-1.4.0.tgz#54db4de9df7c3811c3f032f34749a4cd27f3bd12"
-  integrity sha512-RLmDrRXkVdouTg38jcgHhyQ/2zjg7a8E6sz2zxfz21Hh17xDJYUHBZimVIt5fUyS8vbfpeSmTL3gUjTEvUV3qQ==
-  dependencies:
-    underscore ">=1.8.3"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -2587,14 +2554,15 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-handlebars@^4.7.2:
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.3.tgz#8ece2797826886cf8082d1726ff21d2a022550ee"
-  integrity sha512-SRGwSYuNfx8DwHD/6InAPzD6RgeruWLT+B8e8a7gGs8FWgHzlExpTFMEq2IA6QpAfOClpKHy6+8IqTjeBCu6Kg==
+handlebars@^4.7.6:
+  version "4.7.6"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
+  integrity sha512-1f2BACcBfiwAfStCKZNrUCgqNZkGsAT7UM3kkYtXuLo0KnaVfjKOyf7PRzB6++aK9STyT1Pd2ZCPe3EGOXleXA==
   dependencies:
+    minimist "^1.2.5"
     neo-async "^2.6.0"
-    optimist "^0.6.1"
     source-map "^0.6.1"
+    wordwrap "^1.0.0"
   optionalDependencies:
     uglify-js "^3.1.4"
 
@@ -2692,7 +2660,7 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-highlight.js@^9.17.1:
+highlight.js@^9.18.1:
   version "9.18.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
   integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
@@ -3594,11 +3562,6 @@ jju@^1.1.0:
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.4.0.tgz#a3abe2718af241a2b2904f84a625970f389ae32a"
   integrity sha1-o6vicYryQaKykE+EpiWXDzia4yo=
 
-jquery@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
-  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
-
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -3985,10 +3948,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.8.0.tgz#ec5c0c9b93878dc52dd54be8d0e524097bd81a99"
-  integrity sha512-MyUe+T/Pw4TZufHkzAfDj6HarCBWia2y27/bhuYkTaiUnfDYFnCP3KUN+9oM7Wi6JA2rymtVYbQu3spE0GCmxQ==
+marked@0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.8.2.tgz#4faad28d26ede351a7a1aaa5fec67915c869e355"
+  integrity sha512-EGwzEeCcLniFX51DhTpmTom+dSA/MG/OBUDjnWtHbEnjAH180VzUeAw+oE4+Zv+CoYBWyRlYOTR0N8SO9R1PVw==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -4113,10 +4076,10 @@ minimist@^1.1.1, minimist@^1.2.0:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
-  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
+minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
@@ -4518,14 +4481,6 @@ onetime@^5.1.0:
   integrity sha512-5NcSkPHhwTVFIQN+TUqXoS5+dlElHXdpAWu9I0HP20YOtIi+aZ0Ct82jdlILDxjLEAWwvm+qj1m6aEtsDVmm6Q==
   dependencies:
     mimic-fn "^2.1.0"
-
-optimist@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
 
 optionator@^0.8.1:
   version "0.8.3"
@@ -5922,30 +5877,28 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typedoc-default-themes@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/typedoc-default-themes/-/typedoc-default-themes-0.8.0.tgz#991d6121d492e662eb371f30edc982440fe04a63"
-  integrity sha512-0bzAjVEX6ClhE3jLRdU7vR8Fsfbt4ZcPa+gkqyAVgTlQ1fLo/7AkCbTP+hC5XAiByDfRfsAGqj9y6FNjJh0p4A==
+typedoc-default-themes@^0.10.0:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/typedoc-default-themes/-/typedoc-default-themes-0.10.1.tgz#eb27b7d689457c7ec843e47ec0d3e500581296a7"
+  integrity sha512-SuqAQI0CkwhqSJ2kaVTgl37cWs733uy9UGUqwtcds8pkFK8oRF4rZmCq+FXTGIb9hIUOu40rf5Kojg0Ha6akeg==
   dependencies:
-    backbone "^1.4.0"
-    jquery "^3.4.1"
     lunr "^2.3.8"
-    underscore "^1.9.2"
 
-typedoc@0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.17.0.tgz#25dcd68d51e7bdb04af3cd1a3fd591d23d9886df"
-  integrity sha512-HviZ/SLDPAgJdYqaCor+7rmJnM80Ra2oI0Nj+L/sOIBvh9pY1aCzDtSg3p3n4cgqCmvGu6O90fvMQyjEvlqM+g==
+typedoc@0.17.4:
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.17.4.tgz#1de11e2e5e741af20bcdd73b9525f8ad04b59863"
+  integrity sha512-4Lotef1l6lNU5Fulpux809WPlF9CkmcXfv5QFyanrjYlxMFxSdARRdsy8Jv1OU3z0vjR4JsvUQT0YpiPqztcOA==
   dependencies:
     fs-extra "^8.1.0"
-    handlebars "^4.7.2"
-    highlight.js "^9.17.1"
+    handlebars "^4.7.6"
+    highlight.js "^9.18.1"
     lodash "^4.17.15"
-    marked "^0.8.0"
+    lunr "^2.3.8"
+    marked "0.8.2"
     minimatch "^3.0.0"
     progress "^2.0.3"
     shelljs "^0.8.3"
-    typedoc-default-themes "^0.8.0"
+    typedoc-default-themes "^0.10.0"
 
 typeforce@^1.11.5:
   version "1.18.0"
@@ -5964,11 +5917,6 @@ uglify-js@^3.1.4:
   dependencies:
     commander "~2.20.3"
     source-map "~0.6.1"
-
-underscore@>=1.8.3, underscore@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.2.tgz#0c8d6f536d6f378a5af264a72f7bec50feb7cf2f"
-  integrity sha512-D39qtimx0c1fI3ya1Lnhk3E9nONswSKhnffBI0gME9C99fYOkNi04xs8K6pePLhvl1frbDemkaBQ5ikWllR2HQ==
 
 union-value@^1.0.0:
   version "1.0.1"
@@ -6202,10 +6150,10 @@ word-wrap@~1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
+wordwrap@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
