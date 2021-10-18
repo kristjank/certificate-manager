@@ -25,7 +25,12 @@
     log-process-errors "^5.0.2"
     semver "^7.0.0"
 
-"@arkecosystem/core-event-emitter@2.6.36", "@arkecosystem/core-event-emitter@^2.6.36":
+"@arkecosystem/core-event-emitter@2.7.26":
+  version "2.7.26"
+  resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.7.26.tgz#288c9379fbf1762ae4e71b8da75567af14eeb5b1"
+  integrity sha512-XLOFJnDwNdh3yY7CXgM2pNXRHlQDtHC2mzNdV3ukj2XPkA0Sz7MvQBC1Ec4+vf0tkiDRe3g00Bs28XeCNUa5jQ==
+
+"@arkecosystem/core-event-emitter@^2.6.36":
   version "2.6.36"
   resolved "https://registry.yarnpkg.com/@arkecosystem/core-event-emitter/-/core-event-emitter-2.6.36.tgz#bce5f50e5520176b95822a4d965feff3bcfba6bf"
   integrity sha512-sdorC1xY9chIdOW+SlS+6uJNr4o0xZtuYIQ4A0x+H2w0suGccH8N1P/BGFcQR7Us04Mq62PDSXAGSLw5Z0LAPQ==
